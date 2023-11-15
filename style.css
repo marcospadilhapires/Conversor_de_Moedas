@@ -42,3 +42,21 @@ body {
   img {
     max-height: 250px;
   }
+
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+  .form-cotacao{
+    font-size: 1.5rem;
+  }
+
+  .selecao{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+  }
