@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Conversor de moedas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
       </a>
       <form>
         <div class="selecao">
-          <h2 id="moeda-resultado-1">1</h2>
+          <input id="moeda-resultado-1" class="input-resultado"></input>
           <select name="cotacao1" id="cotacao1" class="form-cotacao">
             <option value="dolar-americano">Dólar Americano</option>
             <option value="euro">Euro</option>
@@ -35,7 +35,7 @@
         </div>
         
         <div class="selecao">
-          <h2 id="moeda-resultado-2">1.67</h2>
+          <input id="moeda-resultado-2" class="input-resultado"></input>
           <select name="cotacao2" id="cotacao2"class="form-cotacao">
             <option value="dolar-americano">Dólar Americano</option>
             <option value="euro">Euro</option>
@@ -50,6 +50,6 @@
           </select>
         </div>
       </form>
-      <script src="main.js"></script>
+      <script src="js/main.js" type="module"></script>
 </body>
 </html>

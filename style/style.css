@@ -60,3 +60,9 @@ body {
     justify-content: center;
     gap: 20px
   }
+
+  .input-resultado{
+    width:70px;
+    font-size: 1.3rem;
+    font-style: bold;
+  }
