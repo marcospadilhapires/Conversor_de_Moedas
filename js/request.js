@@ -44,12 +44,12 @@ export function obterParteURL(moedaSelecao){
 
 }
 
-function conversao(input,cotacao){
-    if (resultado = 0){
-        resultado = 1
+ export function verificaOutroInput(outroInput){
+    if (outroInput === ''){
+        outroInput = 1
     }
-    resultado = input * cotacao
-    return resultado
+    console.log(outroInput)
+    return outroInput
 }
 
 export function getCoinExchangeRate(url,urlparte1,urlparte2){
