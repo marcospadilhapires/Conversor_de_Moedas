@@ -11,6 +11,7 @@ moeda2Seletor = document.querySelector('#cotacao2')
 
 function obterURLcompleta(moeda,outraMoeda,valorOutroInput,input){
     urlparte1 = request.obterParteURL(moeda.value)
+    console.log(moeda.value)
     urlparte2 = request.obterParteURL(outraMoeda)
     if(urlparte1 && urlparte2){
         var url =('https://economia.awesomeapi.com.br/last/'+urlparte1+'-'+urlparte2);

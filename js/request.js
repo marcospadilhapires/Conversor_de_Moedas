@@ -1,4 +1,4 @@
-const seletor1 = ['USD','EUR','GBP','JPY','AUD','CHF','CAD','CNY','ARS','TRY'];
+const seletor1 = ['USD','EUR','GBP','JPY','AUD','CHF','CAD','CNY','ARS','TRY','BRL'];
 
 var moeda1resultado, moeda2resultado
 moeda1resultado = document.querySelector('#moeda-resultado-1');
@@ -35,6 +35,9 @@ export function obterParteURL(moedaSelecao){
             break
         case 'lira-turca':
             urlparte = seletor1[9]
+            break
+        case 'real-brasil':
+            urlparte = seletor1[10]
             break
         default:
             urlparte = 'Moeda não encontrada'
