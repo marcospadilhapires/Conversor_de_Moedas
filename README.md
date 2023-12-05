@@ -25,8 +25,6 @@ Este projeto utiliza a API de dados econômicos da [AwesomeAPI](https://economia
 
 Para mais detalhes sobre os endpoints e como utilizar a API, consulte a [documentação da AwesomeAPI](https://docs.awesomeapi.com.br/).
 
-Por favor, observe os termos de uso e as políticas de uso da API da AwesomeAPI ao utilizar este projeto.
-
 ## Como Utilizar
 
 1. Clone este repositório para o seu ambiente local.
@@ -44,9 +42,3 @@ Contribuições são bem-vindas! Se deseja contribuir para este projeto, siga es
 3. Faça commit das suas alterações (`git commit -am 'Adiciona nova funcionalidade'`).
 4. Faça push para a branch (`git push origin feature/nova-funcionalidade`).
 5. Abra um Pull Request.
-
-## API Utilizada
-
-Este projeto utiliza a API de dados econômicos da [AwesomeAPI](https://economia.awesomeapi.com.br/), que fornece informações e taxas de câmbio atualizadas.
-
-Para mais detalhes sobre os endpoints e como utilizar a API, consulte a [documentação da AwesomeAPI](https://docs.awesomeapi.com.br/).
